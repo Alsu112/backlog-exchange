@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -8,25 +7,413 @@
 
     <title>Backlog Exchange — Alsu Akhatova</title>
 
+    <meta
+        name="description"
+        content="Give me one well-scoped ML problem your team never has time to investigate. I'll spend up to 14 days working on it."
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <section class="hero">
+    <header class="topbar">
+        <a class="logo" href="#top">Backlog Exchange</a>
 
-        <h1>Backlog Exchange</h1>
+        <nav>
+            <a href="#problems">Problems</a>
+            <a href="#rules">Rules</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
 
-        <p>Alsu Akhatova</p>
 
-        <h2>Your forgotten ML problem. My next 14 days.</h2>
+    <main id="top">
 
-        <p>
-            Give me one well-scoped ML problem your team never has time to investigate.
-            I'll spend up to 14 days working on it.
-        </p>
+        <!-- HERO -->
 
-    </section>
+        <section class="hero">
+
+            <p class="eyebrow">
+                Alsu Akhatova · Applied Mathematics & Physics @ MIPT
+            </p>
+
+            <h1>
+                Your forgotten ML problem.<br>
+                My next 14 days.
+            </h1>
+
+            <p class="hero-text">
+                Give me one well-scoped ML question your team never has time
+                to investigate. I'll spend up to 14 days trying to answer it.
+            </p>
+
+            <p class="flow">
+                baseline → experiments → metrics → findings → reproducible work
+            </p>
+
+            <div class="hero-actions">
+                <a class="button primary" href="mailto:YOUR_EMAIL?subject=Backlog%20Exchange%20—%20ML%20problem">
+                    Give me a problem →
+                </a>
+
+                <a class="button secondary" href="#problems">
+                    See what I can work on ↓
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- WHAT YOU GIVE / GET -->
+
+        <section class="section">
+
+            <p class="section-label">The exchange</p>
+
+            <h2>
+                You bring the problem.<br>
+                I'll investigate it.
+            </h2>
+
+            <div class="two-columns">
+
+                <div>
+                    <h3>You give me</h3>
+
+                    <ul>
+                        <li>a dataset nobody has had time to explore</li>
+                        <li>an abandoned experiment</li>
+                        <li>a paper you've wanted to reproduce</li>
+                        <li>a baseline you've wanted to establish</li>
+                        <li>a model or approach you've wanted to compare</li>
+                        <li>an ML hypothesis you've never had time to test</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>I return</h3>
+
+                    <ul>
+                        <li>a clear baseline</li>
+                        <li>documented experiments</li>
+                        <li>relevant metrics</li>
+                        <li>findings and limitations</li>
+                        <li>reproducible work</li>
+                        <li>a concise conclusion about what worked — or didn't</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <blockquote>
+                “We tested it. It doesn't work, and here's why”
+                is a perfectly useful result too.
+            </blockquote>
+
+        </section>
+
+
+        <!-- PRICE -->
+
+        <section class="section price-section">
+
+            <p class="section-label">The price?</p>
+
+            <h2>No money.</h2>
+
+            <p class="intro">
+                If the experiment was useful, pick one.
+            </p>
+
+            <div class="cards">
+
+                <article class="card">
+                    <span class="icon">☕</span>
+                    <h3>A cup of coffee</h3>
+                    <p>If we ever happen to be in the same city.</p>
+                </article>
+
+                <article class="card">
+                    <span class="icon">🧠</span>
+                    <h3>A conversation</h3>
+                    <p>30 minutes of career, engineering, research — or life — advice.</p>
+                </article>
+
+                <article class="card">
+                    <span class="icon">🤝</span>
+                    <h3>An introduction</h3>
+                    <p>
+                        If you genuinely liked my work, introduce me to one person
+                        you think I should know.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="icon">✍️</span>
+                    <h3>A recommendation</h3>
+                    <p>A short recommendation about the work we did together.</p>
+                </article>
+
+                <article class="card">
+                    <span class="icon">🚀</span>
+                    <h3>Another problem</h3>
+                    <p>If the first one was useful, give me something harder.</p>
+                </article>
+
+            </div>
+
+            <p class="small-note">
+                None of these are required. The experiment comes with no strings attached.
+            </p>
+
+        </section>
+
+
+        <!-- PROBLEMS -->
+
+        <section class="section" id="problems">
+
+            <p class="section-label">What kind of problems?</p>
+
+            <h2>Small enough to investigate.<br>Real enough to matter.</h2>
+
+            <div class="three-columns">
+
+                <article>
+                    <h3>Machine Learning</h3>
+
+                    <ul>
+                        <li>classification and regression</li>
+                        <li>model comparison and baselines</li>
+                        <li>feature engineering</li>
+                        <li>error analysis</li>
+                        <li>evaluation and experimental design</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Computer Vision</h3>
+
+                    <ul>
+                        <li>image classification</li>
+                        <li>segmentation</li>
+                        <li>detection</li>
+                        <li>generative models</li>
+                        <li>adapting research approaches</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Research / Scientific ML</h3>
+
+                    <ul>
+                        <li>reproducing a paper or experiment</li>
+                        <li>testing a hypothesis</li>
+                        <li>exploring scientific datasets</li>
+                        <li>numerical + ML approaches</li>
+                        <li>ablation studies and benchmarks</li>
+                    </ul>
+                </article>
+
+            </div>
+
+            <p class="highlight">
+                I'm especially interested in problems at the intersection of
+                <strong>ML, computer vision, physics and scientific research.</strong>
+            </p>
+
+        </section>
+
+
+        <!-- RULES -->
+
+        <section class="section rules" id="rules">
+
+            <p class="section-label">The rules</p>
+
+            <h2>One problem. Up to 14 days.</h2>
+
+            <p class="intro">
+                Well-scoped. No strings attached.
+            </p>
+
+            <p>
+                This is meant for small R&D questions and experiments your team
+                hasn't had time to investigate — not ongoing unpaid engineering work
+                or production-critical development.
+            </p>
+
+            <p>
+                The goal is to answer one useful question and learn something
+                from the process.
+            </p>
+
+            <div class="rule-box">
+
+                <h3>Data & confidentiality</h3>
+
+                <p>
+                    The problem can use open data, anonymized or synthetic data,
+                    or confidential data under NDA when appropriate.
+                </p>
+
+                <p>
+                    Any work I create specifically for your organization can remain yours.
+                </p>
+
+                <p>
+                    For confidential projects, I'd only ask — where possible —
+                    for permission to mention the collaboration and describe my
+                    contribution in general, non-confidential terms in my CV.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="section" id="about">
+
+            <p class="section-label">Why me?</p>
+
+            <h2>Physics first.<br>Machine learning next.</h2>
+
+            <p class="intro">
+                I studied Applied Mathematics and Physics at MIPT and moved from
+                physics and numerical methods into machine learning.
+            </p>
+
+            <div class="skills">
+                <span>Python</span>
+                <span>Classical ML</span>
+                <span>PyTorch</span>
+                <span>Computer Vision</span>
+                <span>Numerical Methods</span>
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+
+        <section class="section">
+
+            <p class="section-label">Selected work</p>
+
+            <h2>Things I've already built.</h2>
+
+            <div class="projects">
+
+                <article class="project-card">
+                    <p class="project-type">Computer Vision / Generative Models</p>
+
+                    <h3>StyleGAN-NADA</h3>
+
+                    <p>
+                        Adapted a generative model using text-guided domain adaptation.
+                        Add a short description of what you implemented, tested and learned.
+                    </p>
+
+                    <a href="YOUR_PROJECT_LINK" target="_blank">
+                        View project →
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <p class="project-type">Machine Learning</p>
+
+                    <h3>Your second project</h3>
+
+                    <p>
+                        Replace this with your strongest classical ML or applied project.
+                        Focus on the task, experiments and measurable result.
+                    </p>
+
+                    <a href="YOUR_PROJECT_LINK" target="_blank">
+                        View project →
+                    </a>
+                </article>
+
+            </div>
+
+            <div class="links">
+                <a href="YOUR_GITHUB_LINK" target="_blank">GitHub ↗</a>
+                <a href="YOUR_CV_LINK" target="_blank">CV ↗</a>
+                <a href="mailto:YOUR_EMAIL">Email ↗</a>
+            </div>
+
+        </section>
+
+
+        <!-- WHY -->
+
+        <section class="section why-section">
+
+            <p class="section-label">Why am I doing this?</p>
+
+            <h2>
+                There's a small problem with getting experience.
+            </h2>
+
+            <p class="large-copy">
+                I could keep sending CVs and waiting for someone to decide
+                that I have enough experience to get more experience.
+            </p>
+
+            <p class="large-copy">
+                Or I can meet interesting engineers and researchers,
+                investigate real problems, and become a better ML engineer
+                in the process.
+            </p>
+
+            <p class="choice">
+                I chose the second option.
+            </p>
+
+        </section>
+
+
+        <!-- FINAL CTA -->
+
+        <section class="final-cta">
+
+            <p class="section-label">Interested?</p>
+
+            <h2>
+                What's sitting<br>
+                in your backlog?
+            </h2>
+
+            <p>
+                A weird dataset, forgotten experiment, paper, baseline or ML hypothesis?
+                Send it to me.
+            </p>
+
+            <p>
+                I'll tell you honestly whether I think it fits the 14-day format
+                before we start.
+            </p>
+
+            <a class="button primary large-button"
+               href="mailto:YOUR_EMAIL?subject=Backlog%20Exchange%20—%20ML%20problem">
+                Give me a problem →
+            </a>
+
+            <p class="limited">
+                Limited project · September–October 2026
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Backlog Exchange · Alsu Akhatova · 2026</p>
+    </footer>
 
 </body>
 
